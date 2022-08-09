@@ -52,7 +52,7 @@ void single_free(int n, ...)
 
 /**
  * error_printing - Prints an error message when command not found.
- * @count: Acounter keeping track of the number of commands run on the shell
+ * @count: A counter keeping track of the number of commands run on the shell
  * @av: The name of the program running the shell
  * @command: The specific command not being found
  */
