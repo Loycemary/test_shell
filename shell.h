@@ -12,6 +12,8 @@
 #include <stdarg.h>
 #include <signal.h>
 
+typedef void empty;
+
 #define PROMPT "mysh$ "
 
 typedef struct builtin_d
