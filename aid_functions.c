@@ -57,7 +57,12 @@ void single_free(int n, ...)
  * @command: The specific command not being found
  */
 void error_printing(char *av, int count, char *command)
+int main()
 {
+	error_printing(char *av, int count, char *command);
+}
+void error_printing(char *av, int count, char *command)
+{	
 	print_str(av, 1);
 	print_str(": ", 1);
 	print_number(count);
@@ -71,6 +76,11 @@ void error_printing(char *av, int count, char *command)
  * @count: Keeps track ofhow many commands have been entered.
  * @tmp_command: The command that filed.
  */
+void exec_error(char *av, int count, char *tmp_command)
+int main()
+{
+	exec_error(char *av, int count, char *tmp_command);
+}
 void exec_error(char *av, int count, char *tmp_command)
 {
 	error_printing(av, count, tmp_command);
